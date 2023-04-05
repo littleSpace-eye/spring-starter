@@ -1,0 +1,15 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/buffer-suan/cloud-config.git
+          username: 1711550920@qq.com
+          password: Suan1230.
+          search-paths: config
+          default-label: master
